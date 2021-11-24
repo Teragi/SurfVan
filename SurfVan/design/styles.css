@@ -1,0 +1,141 @@
+
+/*POLICES*/
+@font-face {
+    font-family: 'theblacklist';
+    src : url('../fonts/theblacklist.ttf') format('truetype');
+}
+
+*, ::before, ::after{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.header{
+    color: #ffff;
+    height:200px;
+    background: linear-gradient(#e66465, #FFBF00);
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    /* text-align: center; */
+    padding: 30px;
+}
+
+.title{
+    font-family:'theblacklist' ;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+/* Nav */
+.flex-nav{
+    text-align: center;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+hr{
+    height: 2px;
+    background-color: #ff7d95;
+    border: none;
+}
+
+/* MAIN TXT */
+.txt-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin: 30px auto;
+}
+.title-main{
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* IMAGES */
+.galerie{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1000px;
+    margin: 70px auto 0;
+}
+.size{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+.size img{
+    width: 100%;
+}
+.img-4, .img-5{
+    height: 225px;
+}
+
+/* IMAGES TXT */
+.txt-img{
+    margin: -5px;
+    height: 55px;
+    background-color: #ff7d95;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.txt-img p{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+/* CONTACT */
+.contact{
+    border: 1px solid #e66465;
+    border-radius: 5px;
+    margin: 5px 20px 50px 20px;
+    height: 100px;
+}
+.txt-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto ;
+}
+.txt-contact{
+    margin: 50px auto;
+}
+
+/* FOOTER */
+footer{
+    height: 40px;
+    background-color: #ff7d95;
+    padding: 10px;
+}
+.txt-footer{
+    font-size: 16px;
+    color: #ffff;
+}
